@@ -1,7 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"],
-  "repositories": ["whyzotee/swap-uni"],
+  "extends": [
+    "config:recommended"
+  ],
+  "repositories": [
+    "whyzotee/swap-uni"
+  ],
   "branchPrefix": "renovate/",
   "dependencyDashboardTitle": "Dependency Dashboard self-hosted",
   "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
@@ -11,11 +15,16 @@
   "packageRules": [
     {
       "description": "Automerge non-major updates",
-      "matchUpdateTypes": ["minor", "patch"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
       "automerge": true
     },
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": [
+        "devDependencies"
+      ],
       "automerge": true
     }
   ]

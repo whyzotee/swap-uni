@@ -1,0 +1,20 @@
+name: Keep Supabase Alive
+
+on:
+  schedule:
+    # - cron: "0 0 */7 * *"
+    - cron: "*/1 * * * *"
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase Edge Function
+        run: |
+          echo "Pinging Supabase keep-alive endpoint..."
+          RESPONSE_CODE=$(curl -s -o /dev/null -w "%{http_code}" "https://thmoqzmotdfbtmubscui.supabase.co/functions/v1/hello-world")
+          echo "Response code: $RESPONSE_CODE"
+          if [ "$RESPONSE_CODE" -ne 200 ]; then
+            echo "❌ Ping failed with status $RESPONSE_CODE"
+            exit 1
+          fi

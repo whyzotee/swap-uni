@@ -6,5 +6,5 @@
   "onboarding": true,
   "onboardingBranch": "renovate/configure",
   "platform": "github",
-  "repositories": []
+  "repositories": ["whyzotee/swap-uni"]
 }

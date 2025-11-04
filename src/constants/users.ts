@@ -1,6 +1,6 @@
-import { User } from "@/modules/chat/types/user";
+import { User } from "@/modules/chat/types";
 
-const users: User[] = [
+export const users: User[] = [
     {
         id: "019a4f80-47fe-749f-94df-26b01f7fd881",
         firstName: "why",

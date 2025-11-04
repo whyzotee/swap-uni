@@ -7,20 +7,19 @@ export const channels: Channel[] = [
         lastMessage: {
             id: "m001",
             content: "ไก่กับไข่อันไหนเกิดก่อนกัน??",
-            createdAt: "",
+            createdAt: "2025-01-01T00:00:00Z",
         },
         avatar: "https://i.waifu.pics/eRKDedk.jpg"
     },
-
     {
         id: "2",
         name: "HelloWorld",
         lastMessage: {
             id: "m001",
             content: "ไก่กับไข่อันไหนเกิดก่อนกัน??",
-            createdAt: "",
+            createdAt: "2025-01-01T00:00:00Z",
         },
-        avatar: "https://i.waifu.pics/eRKDedk.jpg"
+        avatar: "https://i.waifu.pics/4Ni15Gm.jpg"
     },
     {
         id: "3",
@@ -28,9 +27,9 @@ export const channels: Channel[] = [
         lastMessage: {
             id: "m001",
             content: "ไก่กับไข่อันไหนเกิดก่อนกัน??",
-            createdAt: "",
+            createdAt: "2025-01-01T00:00:00Z",
         },
-        avatar: "https://i.waifu.pics/eRKDedk.jpg"
+        avatar: "https://i.waifu.pics/Abh~zo3.jpg"
     },
     {
         id: "4",
@@ -38,9 +37,9 @@ export const channels: Channel[] = [
         lastMessage: {
             id: "m001",
             content: "ไก่กับไข่อันไหนเกิดก่อนกัน??",
-            createdAt: "",
+            createdAt: "2025-01-01T00:00:00Z",
         },
-        avatar: "https://i.waifu.pics/eRKDedk.jpg"
+        avatar: "https://i.waifu.pics/cuwUkva.jpg"
     },
     {
         id: "5",
@@ -48,19 +47,20 @@ export const channels: Channel[] = [
         lastMessage: {
             id: "m001",
             content: "ไก่กับไข่อันไหนเกิดก่อนกัน??",
-            createdAt: "",
+            createdAt: "2025-01-01T00:00:00Z",
         },
         avatar: "https://i.waifu.pics/eRKDedk.jpg"
     },
+
     {
         id: "6",
         name: "HelloWorld",
         lastMessage: {
             id: "m001",
             content: "ไก่กับไข่อันไหนเกิดก่อนกัน??",
-            createdAt: "",
+            createdAt: "2025-01-01T00:00:00Z",
         },
-        avatar: "https://i.waifu.pics/eRKDedk.jpg"
+        avatar: "https://i.waifu.pics/4Ni15Gm.jpg"
     },
     {
         id: "7",
@@ -68,9 +68,9 @@ export const channels: Channel[] = [
         lastMessage: {
             id: "m001",
             content: "ไก่กับไข่อันไหนเกิดก่อนกัน??",
-            createdAt: "",
+            createdAt: "2025-01-01T00:00:00Z",
         },
-        avatar: "https://i.waifu.pics/eRKDedk.jpg"
+        avatar: "https://i.waifu.pics/Abh~zo3.jpg"
     },
     {
         id: "8",
@@ -78,9 +78,9 @@ export const channels: Channel[] = [
         lastMessage: {
             id: "m001",
             content: "ไก่กับไข่อันไหนเกิดก่อนกัน??",
-            createdAt: "",
+            createdAt: "2025-01-01T00:00:00Z",
         },
-        avatar: "https://i.waifu.pics/eRKDedk.jpg"
+        avatar: "https://i.waifu.pics/cuwUkva.jpg"
     },
     {
         id: "9",
@@ -88,18 +88,8 @@ export const channels: Channel[] = [
         lastMessage: {
             id: "m001",
             content: "ไก่กับไข่อันไหนเกิดก่อนกัน??",
-            createdAt: "",
+            createdAt: "2025-01-01T00:00:00Z",
         },
         avatar: "https://i.waifu.pics/eRKDedk.jpg"
     },
-    {
-        id: "10",
-        name: "HelloWorld",
-        lastMessage: {
-            id: "m001",
-            content: "ไก่กับไข่อันไหนเกิดก่อนกัน??",
-            createdAt: "",
-        },
-        avatar: "https://i.waifu.pics/eRKDedk.jpg"
-    }
 ]

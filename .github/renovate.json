@@ -1,0 +1,45 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "repositories": [
+    "whyzotee/swap-uni"
+  ],
+  "branchPrefix": "renovate/",
+  "dependencyDashboardTitle": "Dependency Dashboard self-hosted",
+  "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
+  "onboarding": true,
+  "onboardingBranch": "renovate/configure",
+  "platform": "github",
+  "packageRules": [
+    {
+      "description": "❌ Don't update React Native core packages manually — follow Expo SDK",
+      "matchPackageNames": [
+        "react",
+        "react-dom",
+        "react-native",
+        "react-native-gesture-handler",
+        "react-native-keyboard-controller",
+        "react-native-screens",
+        "react-native-worklets",
+        "@types/react"
+      ],
+      "enabled": false
+    },
+    {
+      "description": "Automerge non-major updates",
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
+    },
+    {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "automerge": true
+    }
+  ]
+}

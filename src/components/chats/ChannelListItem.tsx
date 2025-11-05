@@ -2,6 +2,7 @@ import { Channel } from "@/modules/chat/types";
 import { formatDistanceToNow } from "date-fns";
 import { Link } from "expo-router";
 import { Image, Pressable, StyleSheet, Text, View } from "react-native";
+import { ThemedText } from "../themed-text";
 type ChannelListItemProps = {
   channel: Channel
 }
@@ -13,9 +14,9 @@ export default function ChannelListItem({ channel }: ChannelListItemProps) {
         <Image style={styles.tinyLogo} source={{ uri: channel.avatar }} />
 
         <View style={styles.content}>
-          <Text style={styles.name} numberOfLines={1}>
+          <ThemedText style={styles.name} numberOfLines={1}>
             {channel.name}
-          </Text>
+          </ThemedText>
           <Text style={styles.lastMessage} numberOfLines={1}>
             {channel.lastMessage?.content || "No message yet"}
           </Text>

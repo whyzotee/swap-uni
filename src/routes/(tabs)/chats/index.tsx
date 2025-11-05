@@ -4,7 +4,7 @@ import { FlatList, View } from "react-native";
 
 export default function Chat() {
   return (
-    <View >
+    <View>
       <FlatList
         data={channels}
         renderItem={({ item }) => <ChannelListItem channel={item} />}

@@ -7,7 +7,7 @@ export default function ChatLayout() {
                 options={{
                     title: "Chats",
                     headerLargeTitle: true,
-                    // headerTransparent: true,
+                    headerTransparent: true,
                 }}
             />
             <Stack.Screen name="channel/[id]"
@@ -20,4 +20,4 @@ export default function ChatLayout() {
             />
         </Stack>
     );
-}
+}  

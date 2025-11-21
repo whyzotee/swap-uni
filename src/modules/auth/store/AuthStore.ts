@@ -55,4 +55,4 @@ export const useAuthStore = create<AuthState>((set) => ({
 
         return Promise.resolve();
     },
-}))
+}));

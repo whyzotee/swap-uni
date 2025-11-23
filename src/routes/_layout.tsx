@@ -1,5 +1,5 @@
 import { useColorScheme } from "@/hooks/use-color-scheme";
-import { useAuthStore } from "@/modules/auth/store/AuthStore";
+import { useAuthStore } from "@/modules/auth/store";
 import { supabase } from "@/utils/supabase";
 import {
   DarkTheme,

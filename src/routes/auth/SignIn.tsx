@@ -1,6 +1,6 @@
-import FormField from "@/components/FormField";
-import { useAuthStore } from "@/modules/auth/store/AuthStore";
-import { signInSchema, signInType } from "@/modules/auth/validation/AuthSchema";
+import FormField from "@/components/ui/FormField";
+import { useAuthStore } from "@/modules/auth/store";
+import { signInSchema, signInType } from "@/modules/auth/validation/authSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Controller, SubmitHandler, useForm } from "react-hook-form";
 import { Button, Text, View } from "react-native";

@@ -1,4 +1,4 @@
-import { signInSchema } from "@/modules/auth/validation/AuthSchema";
+import { signInSchema } from "@/modules/auth/validation/authSchema";
 import { supabase } from "@/utils/supabase";
 import { AuthError, Session, User } from "@supabase/supabase-js";
 import { create } from "zustand";

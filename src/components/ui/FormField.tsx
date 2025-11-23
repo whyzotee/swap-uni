@@ -1,7 +1,7 @@
 import React from "react";
 import { FieldError } from "react-hook-form";
 import { BlurEvent, StyleSheet, Text, TextInput } from "react-native";
-import { ThemedText } from "./themed-text";
+import { ThemedText } from "../themed-text";
 
 export default function FormField({
   title,

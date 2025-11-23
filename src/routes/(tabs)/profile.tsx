@@ -2,7 +2,7 @@ import { HelloWave } from "@/components/hello-wave";
 import ParallaxScrollView from "@/components/parallax-scroll-view";
 import { ThemedText } from "@/components/themed-text";
 import { ThemedView } from "@/components/themed-view";
-import { useAuthStore } from "@/modules/auth/store/AuthStore";
+import { useAuthStore } from "@/modules/auth/store";
 import { Image } from "expo-image";
 import { Button, StyleSheet } from "react-native";
 

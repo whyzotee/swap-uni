@@ -7,7 +7,6 @@
     "whyzotee/swap-uni"
   ],
   "branchPrefix": "renovate/",
-  "dependencyDashboardTitle": "Renovate Dependency Dashboard",
   "platform": "github",
   "packageRules": [
     {
